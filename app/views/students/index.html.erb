@@ -1,6 +1,6 @@
 <%= form_tag students_path, method: :get do %>
 <p>
-  <%= test_field_tag :query, params[:query] %>
+  <%= text_field_tag :query, params[:query] %>
   <%= submit_tag "Search" %>
 </p>
 <% end %>
